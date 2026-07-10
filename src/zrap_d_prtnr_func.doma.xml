@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZRAP_D_PRTNR_FUNC</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Partner function</DDTEXT>
+    <DOMMASTER>E</DOMMASTER>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZRAP_D_PRTNR_FUNC</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SP</DOMVALUE_L>
+     <DDTEXT>Sold-to Party (sipariş veren)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZRAP_D_PRTNR_FUNC</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SH</DOMVALUE_L>
+     <DDTEXT>Ship-to Party (teslimat adresi)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZRAP_D_PRTNR_FUNC</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BP</DOMVALUE_L>
+     <DDTEXT>Bill-to Party (fatura adresi)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZRAP_D_PRTNR_FUNC</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PY</DOMVALUE_L>
+     <DDTEXT>Payer (ödeyen)</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
